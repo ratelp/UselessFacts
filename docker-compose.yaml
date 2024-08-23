@@ -1,0 +1,10 @@
+version: '3.3'
+
+services: 
+  facts: #container facts
+    image: thiagocoelhoo/atividade-sprint3:latest
+    restart: always
+    ports: 
+      -  "8000:8000"
+    env_file:
+      - .env

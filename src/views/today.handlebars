@@ -1,0 +1,13 @@
+<div class="fact-container">
+	<div class="card">
+		<h2>TODAY FACT</h2>
+		<div class="info">
+			{{#with data}}
+				<p><i class="fa-solid fa-fingerprint"></i> {{id}} </p>
+				<p>{{text}}</p>
+				<p><a href="{{source_url}}">
+                    <i class="fa-solid fa-link"></i> {{source}}</a></p>
+			{{/with}}
+		</div>
+	</div>
+</div>
